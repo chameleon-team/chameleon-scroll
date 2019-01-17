@@ -1,8 +1,8 @@
-import { eventMixin } from './scroll/event'
-import { initMixin } from './scroll/init'
-import { coreMixin } from './scroll/core'
-import { pullDownMixin } from './scroll/pulldown'
-import { pullUpMixin } from './scroll/pullup'
+import { eventMixin } from './src/scroll/event'
+import { initMixin } from './src/scroll/init'
+import { coreMixin } from './src/scroll/core'
+import { pullDownMixin } from './src/scroll/pulldown'
+import { pullUpMixin } from './src/scroll/pullup'
 
 function CScroll(el, options) {
   this.wrapper = typeof el === 'string' ? document.querySelector(el) : el
