@@ -1,6 +1,6 @@
 {
   "name": "chameleon-scroll",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/cscroll.js",
   "module": "dist/cscroll.min.js",
